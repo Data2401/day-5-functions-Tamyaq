@@ -13,15 +13,21 @@
 ### PART ONE - Review of Objects ####
 
 # Assign your name to a variable called `my_name`
+my_name <- "Tamana"
 
 # Assign the number of pets you have to a variable called `num_pets`
+num_pets <- 0
 
 # Assign the title of your favorite book as a variable called `favorite_book`
+favorite_book <- "Atomic Habits"
 
 # Create a variable called `radius`, which is your favorite number
+radius <- 5
 
 # Create a variable called `area`, which is the area of a circle with that radius.
-# Use the variable `radius` to calculate this. 
+area <- 78.54
+# Use the variable `radius` to calculate this.
+radius 
 # Use the built-in constant `pi` for pi.
 
 
