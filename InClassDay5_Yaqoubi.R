@@ -27,9 +27,8 @@ radius <- 5
 # Create a variable called `area`, which is the area of a circle with that radius.
 area <- 78.54
 # Use the variable `radius` to calculate this.
-radius 
 # Use the built-in constant `pi` for pi.
-
+pi <- pi
 
 # Create a boolean variable `too_big` that is set to TRUE if the area is larger than 100
 # Use a relationship operator to do this  (don't just set it to "TRUE")
