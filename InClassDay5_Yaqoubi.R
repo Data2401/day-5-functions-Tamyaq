@@ -13,7 +13,7 @@
 ### PART ONE - Review of Objects ####
 
 # Assign your name to a variable called `my_name`
-my_name <- "Tamana"
+my_name <- "Tamana Yaqoubi"
 
 # Assign the number of pets you have to a variable called `num_pets`
 num_pets <- 0
@@ -32,7 +32,7 @@ area <- pi*(radius)^2
 # Create a boolean variable `too_big` that is set to TRUE if the area is larger than 100
 # Use a relationship operator to do this  (don't just set it to "TRUE")
 # Think: how do you check if it's larger than 10? Assign that to your new variable name. 
-is_too_big_larger_than_area <- area > 100 
+too_big <- area > 100 
 
 
 # Display the variable `my_name`
@@ -46,29 +46,36 @@ too_big
 
 # Create a variable `name_length` that holds how many letters (including spaces)
 # are in your name, using the variable you made above. (use the `nchar()` function)
-
+name_length <- nchar(my_name)
 # Print the number of letters in your name
-
+print(name_length)
 # Create a variable `now_doing` that is your name followed by "is programming!" 
 # (use the `paste()` function)
-
+now_doing <- paste( my_name,"is programming")
 # Make the `now_doing` variable upper case
-
+now_doing <- toupper(now_doing)
 # Pick two of your favorite numbers (between 1 and 100) and assign them to 
 # variables `fav_1` and `fav_2`
-
+fav_1 <- 50
+fav_2 <- 100
 # Divide each number by the square root of 201 and save the new value in the
 # original variable
+fav_1 <- 50 / sqrt(201)
+fav_2 <- 100 / sqrt(201)
 
 # Create a variable `raw_sum` that is the sum of the two variables. Use the 
 # `sum()` function for practice.
-
+raw_sum <- sum(fav_1, fav_2)
 # Create a variable `round_sum` that is the `raw_sum` rounded to 2 decimal places.
 # Use the `round()` function.
-
+round_sum <- round(raw_sum, 2) 
 # Create two new variables `round_1` and `round_2` that are your `fav_1` and 
 # `fav_2` variables rounded to 2 decimal places
-
+round_1 <- round(fav_1, 2)
+round_2 <- round(fav_2, 2)
 # Create a variable `sum_round` that is the sum of the rounded values
-
+sum_round <- sum(round_1, round_2)
 # Print out both variables and compare. Are they the same?
+print (sum_round)
+print (round_sum)
+print("yes, they are the same!")
