@@ -25,20 +25,22 @@ favorite_book <- "Atomic Habits"
 radius <- 5
 
 # Create a variable called `area`, which is the area of a circle with that radius.
-area <- 78.54
 # Use the variable `radius` to calculate this.
 # Use the built-in constant `pi` for pi.
-pi <- pi
+area <- pi*(radius)^2
 
 # Create a boolean variable `too_big` that is set to TRUE if the area is larger than 100
 # Use a relationship operator to do this  (don't just set it to "TRUE")
 # Think: how do you check if it's larger than 10? Assign that to your new variable name. 
+is_too_big_larger_than_area <- area > 100 
 
 
 # Display the variable `my_name`
 # Display the variable `area` 
 # Display the variable `too_big`
-
+my_name
+area
+too_big
 
 ### PART TWO ###
 
